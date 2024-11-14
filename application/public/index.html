@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Student App</h1>
     <form id="student-form">
@@ -30,19 +31,20 @@
             </tr>
         </thead>
         <tbody>
+            
         </tbody>
     </table>
-
-
-    <form id="editForm" style="display: none;">
-        <input type="text" id="editName" placeholder="Ім'я" required />
-        <input type="text" id="editSurname" placeholder="Прізвище" required />
-        <input type="number" id="editAge" placeholder="Вік" required />
-        <input type="text" id="editCourse" placeholder="Курс" required />
-        <input type="text" id="editFaculty" placeholder="Факультет" required />
-        <input type="text" id="editSubjects" placeholder="Курси" required />
-        <button type="button" onclick="saveStudent()">Зберегти</button>
+    <form id="edit-student">
+        <input type="text" id="edit-name" placeholder="Ім'я" required>
+        <input type="text" id="edit-surname" placeholder="Прізвище" required>
+        <input type="number" id="edit-age" placeholder="Вік" required>
+        <input type="text" id="edit-course" placeholder="Курс" required>
+        <input type="text" id="edit-faculty" placeholder="Факультет" required>
+        <input type="text" id="edit-subjects" placeholder="Курси" required>
+        <button type="submit">Зберегти студента</button>
     </form>
+
     <script src="./script.js"></script>
 </body>
+
 </html>
